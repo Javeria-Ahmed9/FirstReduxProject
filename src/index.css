@@ -59,8 +59,9 @@ button{
 }
 @media(max-width:460px){
 #maindiv h5{
-  margin-top: 4px;
+  margin-top: 5px;
   font-size: 9px;
+  font-weight: bold;
   width: 200px;
   margin-left: -16px;
 }
