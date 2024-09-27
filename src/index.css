@@ -1,0 +1,117 @@
+
+#maindiv{
+ padding-top: 10px;
+ height: 50px;
+}
+#home{
+  margin-top: 10px ;
+}
+#new{
+  text-decoration: none;
+}
+#cart{
+  margin-top: 20px;
+  font-weight: 600;
+}
+#imgid{
+  height: 120px;
+  width: 120px;
+  margin-bottom:10px;
+}
+#pdiv h6{
+  width: 170px;
+  text-align: center;
+  font-size: 14px;
+}
+#pdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 25px;
+
+}
+button{
+  color: aliceblue;
+  border: 2px solid rgba(77, 68, 68, 0.737);
+  background-color: rgb(75, 75, 240);
+}
+#pID{
+  padding-top: 10px;
+   margin-bottom: 25px;
+}
+#content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#content1{
+  display: flex;
+  flex-wrap: wrap;
+}
+#h4Div{
+  margin-top: 70px;
+}
+@media(max-width:460px){
+h5{
+  margin-top: 1px;
+  font-size: 9px;
+}
+#maindiv{
+  padding-top: 12px;
+  height: 40px;
+  font-size: 10px;
+ }
+ #home{
+   margin-top: 5px ;
+ }
+ #cart{
+   margin-top: 20px;
+   font-weight: 600;
+ }
+ #imgid{
+   height: 60px;
+   width: 60px;
+   margin-bottom:10px;
+ }
+ #pdiv h6{
+   width: 80px;
+   font-size: 8px;
+ }
+ #pdiv{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 200px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   margin-bottom: 25px;
+ 
+ }
+ button{
+  height: 20px;
+  width: 58px;
+  font-size: 8px;
+ }
+ #pID{
+   padding-top: 10px;
+    margin-bottom: 25px;
+ }
+ #content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ #content1{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ #h4Div{
+   margin-top: 20px;
+ }
+ 
+}
