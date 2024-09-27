@@ -15,11 +15,7 @@ export function Cart() {
         </div>
       ) : (
         data.map((val, ind) => (
-          <div
-            style={{ marginTop: "70px", marginLeft: "20px" }}
-            id="pdiv"
-            key={ind}
-          >
+          <div id="pdiv" key={ind}>
             <img id="imgid" src={val.image} />
             <h6>{val.title}</h6>
             <h6>{val.price}</h6>
