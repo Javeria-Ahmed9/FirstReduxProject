@@ -59,7 +59,7 @@ button{
 }
 @media(max-width:460px){
 #maindiv h5{
-  margin-top: 5px;
+  margin-top: 3px;
   font-size: 9px;
   font-weight: bolder;
   width: 200px;
@@ -68,12 +68,12 @@ button{
 #maindiv{
 
   padding-top: 12px;
-  height: 42px;
+  height: 40px;
   font-size: 11px;
  }
  #home{
  
-   margin-top: 5px ;
+   margin-top: 4px ;
  }
  #cart{
    margin-top: -10px;
